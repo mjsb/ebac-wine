@@ -1,0 +1,103 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+p {
+    color: #aaa;
+}
+
+header {
+    background-color: #000;
+}
+
+header .navbar-brand {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+header .navbar-brand:hover {
+    color: #fff;
+}
+
+header h1 span {
+    background-color: #9d1e3c;
+    color: #fff;
+    padding: 0 5px 0 3px;
+    margin-left: 5px;
+}
+
+header .nav-link {
+    color: #fff;
+}
+
+header .nav-link:hover {
+    color: #9d1e3c;
+}
+
+header .navbar-toggler {
+    background-color: #fff;
+}
+
+header .nav-pills .nav-link.active {
+    background-color: #9d1e3c;
+}
+
+#lojas {
+    background-color: #9d1e3c;
+    color: #fff;
+}
+
+#catalogo aside .nav-link {
+    color: #9d1e3c;
+}
+
+#catalogo aside .nav-link.active {
+    background-color: #9d1e3c;
+    color: #fff;
+}
+
+#contato {
+    background-color: #000;
+    color: #aaa;
+}
+
+#contato button {
+    background-color: #9d1e3c;
+    color: #fff;
+}
+
+.section-title {
+    font-weight: 600;
+}
+
+.text-colored {
+    color: #9d1e3c;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links i {
+    color: #aaa;
+}
+
+#contato .content {
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 200px;
+    }
+
+    #contato .content {
+        width: 100%;
+    }
+}
